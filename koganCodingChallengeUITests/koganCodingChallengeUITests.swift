@@ -40,7 +40,7 @@ class koganCodingChallengeUITests: XCTestCase {
         }
     }
     
-    func testGetMoviesWithExpectedURLHostAndPath() {
+    func testUILabelValue() {
         let app = XCUIApplication()
         app.activate()
         XCTAssertEqual(app.staticTexts.element(matching:.any, identifier: "Average Cubic Weight").label, "41613.38 kg")

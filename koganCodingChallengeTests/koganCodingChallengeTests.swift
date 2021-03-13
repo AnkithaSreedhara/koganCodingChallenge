@@ -29,7 +29,7 @@ class koganCodingChallengeTests: XCTestCase {
             // Put the code you want to measure the time of here.
         }
     }
-    func testGetMoviesWithExpectedURLHostAndPath() {
+    func testWithExpectedURL() {
       let apiRespository = APIService()
       let mockURLSession  = MockURLSession()
       apiRespository.session = mockURLSession
