@@ -29,5 +29,16 @@ class koganCodingChallengeTests: XCTestCase {
             // Put the code you want to measure the time of here.
         }
     }
-
+    func testGetMoviesWithExpectedURLHostAndPath() {
+      let apiRespository = APIService()
+      let mockURLSession  = MockURLSession()
+      apiRespository.session = mockURLSession
+        apiRespository.apiToGetProducts(path: Strings.initialPath, completion: { products in
+            
+            if products.objects?.count == 0
+            {
+                XCTFail("Fail")
+            }
+        })
+    }
 }

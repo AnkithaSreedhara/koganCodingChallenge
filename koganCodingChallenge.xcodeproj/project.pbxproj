@@ -7,14 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8D70A75825FC49160014274F /* AirConditionersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D70A75725FC49160014274F /* AirConditionersViewController.swift */; };
+		8D70A76425FC4B960014274F /* ActivityIndicators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D70A76325FC4B960014274F /* ActivityIndicators.swift */; };
+		8D70A76925FC4EA00014274F /* Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D70A76825FC4EA00014274F /* Strings.swift */; };
+		8D70A76E25FC61FC0014274F /* MockURLSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D70A76D25FC61FC0014274F /* MockURLSession.swift */; };
+		8D70A77225FC62590014274F /* Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D70A76825FC4EA00014274F /* Strings.swift */; };
+		8D70A77625FC63C60014274F /* Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D70A76825FC4EA00014274F /* Strings.swift */; };
 		8D7E9E6325FB6F3B007D4D0C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D7E9E6225FB6F3B007D4D0C /* AppDelegate.swift */; };
 		8D7E9E6525FB6F3B007D4D0C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D7E9E6425FB6F3B007D4D0C /* SceneDelegate.swift */; };
-		8D7E9E6725FB6F3B007D4D0C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D7E9E6625FB6F3B007D4D0C /* ViewController.swift */; };
-		8D7E9E6A25FB6F3B007D4D0C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D7E9E6825FB6F3B007D4D0C /* Main.storyboard */; };
 		8D7E9E6C25FB6F3E007D4D0C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D7E9E6B25FB6F3E007D4D0C /* Assets.xcassets */; };
 		8D7E9E6F25FB6F3E007D4D0C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D7E9E6D25FB6F3E007D4D0C /* LaunchScreen.storyboard */; };
 		8D7E9E7A25FB6F3F007D4D0C /* koganCodingChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D7E9E7925FB6F3F007D4D0C /* koganCodingChallengeTests.swift */; };
 		8D7E9E8525FB6F3F007D4D0C /* koganCodingChallengeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D7E9E8425FB6F3F007D4D0C /* koganCodingChallengeUITests.swift */; };
+		8D7E9E9625FB6F5D007D4D0C /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D7E9E9525FB6F5D007D4D0C /* Home.storyboard */; };
+		8D7E9EBA25FB74C8007D4D0C /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D7E9EB925FB74C8007D4D0C /* Product.swift */; };
+		8D7E9EBB25FB74C8007D4D0C /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D7E9EB925FB74C8007D4D0C /* Product.swift */; };
+		8D7E9EBC25FB74C8007D4D0C /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D7E9EB925FB74C8007D4D0C /* Product.swift */; };
+		8D7E9EC525FB75C0007D4D0C /* AirConditionerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D7E9EC425FB75C0007D4D0C /* AirConditionerViewModel.swift */; };
+		8D7E9EC625FB75C0007D4D0C /* AirConditionerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D7E9EC425FB75C0007D4D0C /* AirConditionerViewModel.swift */; };
+		8D7E9EC725FB75C0007D4D0C /* AirConditionerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D7E9EC425FB75C0007D4D0C /* AirConditionerViewModel.swift */; };
+		8D7E9ED525FB7756007D4D0C /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D7E9ED425FB7756007D4D0C /* APIService.swift */; };
+		8D7E9ED625FB7756007D4D0C /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D7E9ED425FB7756007D4D0C /* APIService.swift */; };
+		8D7E9ED725FB7756007D4D0C /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D7E9ED425FB7756007D4D0C /* APIService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,11 +49,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8D70A75725FC49160014274F /* AirConditionersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirConditionersViewController.swift; sourceTree = "<group>"; };
+		8D70A76325FC4B960014274F /* ActivityIndicators.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityIndicators.swift; sourceTree = "<group>"; };
+		8D70A76825FC4EA00014274F /* Strings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Strings.swift; sourceTree = "<group>"; };
+		8D70A76D25FC61FC0014274F /* MockURLSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockURLSession.swift; sourceTree = "<group>"; };
 		8D7E9E5F25FB6F3B007D4D0C /* koganCodingChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = koganCodingChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D7E9E6225FB6F3B007D4D0C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8D7E9E6425FB6F3B007D4D0C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		8D7E9E6625FB6F3B007D4D0C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		8D7E9E6925FB6F3B007D4D0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8D7E9E6B25FB6F3E007D4D0C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8D7E9E6E25FB6F3E007D4D0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8D7E9E7025FB6F3E007D4D0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +65,10 @@
 		8D7E9E8025FB6F3F007D4D0C /* koganCodingChallengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = koganCodingChallengeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D7E9E8425FB6F3F007D4D0C /* koganCodingChallengeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = koganCodingChallengeUITests.swift; sourceTree = "<group>"; };
 		8D7E9E8625FB6F3F007D4D0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D7E9E9525FB6F5D007D4D0C /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		8D7E9EB925FB74C8007D4D0C /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		8D7E9EC425FB75C0007D4D0C /* AirConditionerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirConditionerViewModel.swift; sourceTree = "<group>"; };
+		8D7E9ED425FB7756007D4D0C /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +96,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8D70A76225FC4B7F0014274F /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				8D70A76325FC4B960014274F /* ActivityIndicators.swift */,
+				8D70A76825FC4EA00014274F /* Strings.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
 		8D7E9E5625FB6F3B007D4D0C = {
 			isa = PBXGroup;
 			children = (
@@ -99,12 +128,12 @@
 		8D7E9E6125FB6F3B007D4D0C /* koganCodingChallenge */ = {
 			isa = PBXGroup;
 			children = (
-				8D7E9E6225FB6F3B007D4D0C /* AppDelegate.swift */,
-				8D7E9E6425FB6F3B007D4D0C /* SceneDelegate.swift */,
-				8D7E9E6625FB6F3B007D4D0C /* ViewController.swift */,
-				8D7E9E6825FB6F3B007D4D0C /* Main.storyboard */,
-				8D7E9E6B25FB6F3E007D4D0C /* Assets.xcassets */,
-				8D7E9E6D25FB6F3E007D4D0C /* LaunchScreen.storyboard */,
+				8D70A76225FC4B7F0014274F /* Helpers */,
+				8D7E9EC325FB75A9007D4D0C /* ViewModels */,
+				8D7E9EB825FB74A0007D4D0C /* Models */,
+				8D7E9EA225FB72C6007D4D0C /* Storyboards */,
+				8D7E9EA125FB72B4007D4D0C /* SupportingClasses */,
+				8D7E9EA025FB72A2007D4D0C /* ViewControllers */,
 				8D7E9E7025FB6F3E007D4D0C /* Info.plist */,
 			);
 			path = koganCodingChallenge;
@@ -115,6 +144,7 @@
 			children = (
 				8D7E9E7925FB6F3F007D4D0C /* koganCodingChallengeTests.swift */,
 				8D7E9E7B25FB6F3F007D4D0C /* Info.plist */,
+				8D70A76D25FC61FC0014274F /* MockURLSession.swift */,
 			);
 			path = koganCodingChallengeTests;
 			sourceTree = "<group>";
@@ -126,6 +156,50 @@
 				8D7E9E8625FB6F3F007D4D0C /* Info.plist */,
 			);
 			path = koganCodingChallengeUITests;
+			sourceTree = "<group>";
+		};
+		8D7E9EA025FB72A2007D4D0C /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				8D70A75725FC49160014274F /* AirConditionersViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		8D7E9EA125FB72B4007D4D0C /* SupportingClasses */ = {
+			isa = PBXGroup;
+			children = (
+				8D7E9E6225FB6F3B007D4D0C /* AppDelegate.swift */,
+				8D7E9E6425FB6F3B007D4D0C /* SceneDelegate.swift */,
+				8D7E9E6B25FB6F3E007D4D0C /* Assets.xcassets */,
+				8D7E9E6D25FB6F3E007D4D0C /* LaunchScreen.storyboard */,
+				8D7E9ED425FB7756007D4D0C /* APIService.swift */,
+			);
+			path = SupportingClasses;
+			sourceTree = "<group>";
+		};
+		8D7E9EA225FB72C6007D4D0C /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				8D7E9E9525FB6F5D007D4D0C /* Home.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		8D7E9EB825FB74A0007D4D0C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8D7E9EB925FB74C8007D4D0C /* Product.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8D7E9EC325FB75A9007D4D0C /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				8D7E9EC425FB75C0007D4D0C /* AirConditionerViewModel.swift */,
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,7 +307,7 @@
 			files = (
 				8D7E9E6F25FB6F3E007D4D0C /* LaunchScreen.storyboard in Resources */,
 				8D7E9E6C25FB6F3E007D4D0C /* Assets.xcassets in Resources */,
-				8D7E9E6A25FB6F3B007D4D0C /* Main.storyboard in Resources */,
+				8D7E9E9625FB6F5D007D4D0C /* Home.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,8 +332,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8D7E9E6725FB6F3B007D4D0C /* ViewController.swift in Sources */,
+				8D7E9ED525FB7756007D4D0C /* APIService.swift in Sources */,
 				8D7E9E6325FB6F3B007D4D0C /* AppDelegate.swift in Sources */,
+				8D70A76925FC4EA00014274F /* Strings.swift in Sources */,
+				8D70A75825FC49160014274F /* AirConditionersViewController.swift in Sources */,
+				8D70A76425FC4B960014274F /* ActivityIndicators.swift in Sources */,
+				8D7E9EC525FB75C0007D4D0C /* AirConditionerViewModel.swift in Sources */,
+				8D7E9EBA25FB74C8007D4D0C /* Product.swift in Sources */,
 				8D7E9E6525FB6F3B007D4D0C /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -269,6 +348,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				8D7E9E7A25FB6F3F007D4D0C /* koganCodingChallengeTests.swift in Sources */,
+				8D7E9EBB25FB74C8007D4D0C /* Product.swift in Sources */,
+				8D7E9EC625FB75C0007D4D0C /* AirConditionerViewModel.swift in Sources */,
+				8D70A76E25FC61FC0014274F /* MockURLSession.swift in Sources */,
+				8D70A77225FC62590014274F /* Strings.swift in Sources */,
+				8D7E9ED625FB7756007D4D0C /* APIService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,6 +361,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				8D7E9E8525FB6F3F007D4D0C /* koganCodingChallengeUITests.swift in Sources */,
+				8D7E9EBC25FB74C8007D4D0C /* Product.swift in Sources */,
+				8D70A77625FC63C60014274F /* Strings.swift in Sources */,
+				8D7E9EC725FB75C0007D4D0C /* AirConditionerViewModel.swift in Sources */,
+				8D7E9ED725FB7756007D4D0C /* APIService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,14 +384,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		8D7E9E6825FB6F3B007D4D0C /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8D7E9E6925FB6F3B007D4D0C /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		8D7E9E6D25FB6F3E007D4D0C /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
